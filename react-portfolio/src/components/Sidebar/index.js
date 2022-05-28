@@ -2,6 +2,7 @@ import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope,faUser,faHome} from '@fortawesome/free-solid-svg-icons'
 
 export default function Sidebar(){
@@ -21,6 +22,18 @@ export default function Sidebar(){
                 <FontAwesomeIcon icon ={faEnvelope} color="#4d4d4d" />
             </NavLink>
         </nav>
+        <ul>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://www.linkedin.com/in/ionut-stefan-ferastauaru-1b5a491a0/">
+                    <FontAwesomeIcon icon ={faLinkedin} color="#4d4d4d"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://github.com/StefanFrs">
+                    <FontAwesomeIcon icon ={faGithub} color="#4d4d4d"/>
+                </a>
+            </li>
+        </ul>
       </div>
     )
 

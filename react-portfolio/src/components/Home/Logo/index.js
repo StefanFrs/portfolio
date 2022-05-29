@@ -19,10 +19,10 @@ export default function Logo(){
                 duration: 1,
                 opacity: 1,
               })
-              .from(outlineLogoRef.current, {
-                drawSVG: 0,
-                duration: 1,
-              })
+              // .from(outlineLogoRef.current, { //line animation
+              //   drawSVG: 10,
+              //   duration: 0.2,
+              // })
         
             gsap.fromTo(
               solidLogoRef.current,
@@ -31,8 +31,8 @@ export default function Logo(){
               },
               {
                 opacity: 1,
-                delay: 5,
-                duration: 5,
+                delay: 2,
+                duration: 2,
               }
             )
         },1000)

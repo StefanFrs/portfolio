@@ -2,9 +2,18 @@ import AnimatedLetters from '../AnimatedLetters'
 import {useState,useEffect} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faHtml5, faHubspot, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import fileSaver from 'file-saver'
+import MyPDF from '../About/Ferastauaru_StefanCV.pdf'
 import './index.scss'
 
 export default function About(){
+
+    const saveFile = () => {
+        fileSaver.saveAs(
+          process.env.REACT_APP_CLIENT_URL + "/Ferastauaru_StefanCV.pdf",
+          "Ferastauaru_StefanCV.pdf"
+        );
+    };
 
     const [letterClass,setLetterClass] = useState('text-animate')
 
@@ -32,6 +41,10 @@ export default function About(){
                 <p>
                 “A user interface is like a joke. If you have to explain it, it's not that good”. — Martin Leblanc
                 </p>
+                <div className='two-buttons'>
+                   <a className='about-button' href={MyPDF} download="Ferastauaru_StefanCV.pdf">Check CV</a>
+                   <a href='https://github.com/StefanFrs' target="_blank" rel='noreferrer' className='about-button'>Check the projects</a>
+                </div>
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>

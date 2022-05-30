@@ -2,7 +2,7 @@ import './index.scss'
 import {Link, NavLink} from 'react-router-dom'
 import LogoS from '../../assets/images/logo-s.png'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faInstagram} from '@fortawesome/free-brands-svg-icons'
 import {faEnvelope,faUser,faHome} from '@fortawesome/free-solid-svg-icons'
 
 export default function Sidebar(){
@@ -31,6 +31,11 @@ export default function Sidebar(){
             <li>
                 <a target="_blank" rel='noreferrer' href="https://github.com/StefanFrs">
                     <FontAwesomeIcon icon ={faGithub} color="#4d4d4d"/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" rel='noreferrer' href="https://www.instagram.com/stefan.frs/?hl=en">
+                    <FontAwesomeIcon icon ={faInstagram} color="#4d4d4d"/>
                 </a>
             </li>
         </ul>

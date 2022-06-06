@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.af9f1099.css",
+    "main.js": "/portfolio/static/js/main.d2a118c5.js",
+    "static/js/787.7efd31bd.chunk.js": "/portfolio/static/js/787.7efd31bd.chunk.js",
+    "static/media/Ferastauaru_StefanCV.pdf": "/portfolio/static/media/Ferastauaru_StefanCV.8327cc10a273641b5d45.pdf",
+    "static/media/helvetica-neu.ttf": "/portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/portfolio/static/media/logo-s.bfc9f81846bda5218dab.png",
+    "index.html": "/portfolio/index.html",
+    "main.af9f1099.css.map": "/portfolio/static/css/main.af9f1099.css.map",
+    "main.d2a118c5.js.map": "/portfolio/static/js/main.d2a118c5.js.map",
+    "787.7efd31bd.chunk.js.map": "/portfolio/static/js/787.7efd31bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af9f1099.css",
+    "static/js/main.d2a118c5.js"
+  ]
+}

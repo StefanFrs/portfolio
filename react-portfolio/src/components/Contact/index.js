@@ -31,7 +31,7 @@ export default function Contact(){
             <div className='container contact-page'>
                 <div className='text-zone'>
                     <h1>
-                        <AnimatedLetters strArray={['C','o','n','c','t','a','t',' ','m','e']}
+                        <AnimatedLetters strArray={['C','o','n','t','a','c','t',' ','m','e']}
                         idx={15}
                         letterClass={letterClass}
                         />
